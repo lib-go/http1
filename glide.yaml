@@ -1,0 +1,9 @@
+package: github.com/lib-go/http1
+import: []
+testImport:
+- package: github.com/stretchr/testify
+  version: ~1.1.4
+  subpackages:
+  - assert
+- package: github.com/valyala/fasthttp
+  version: ~20160617.0.0
